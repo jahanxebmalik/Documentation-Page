@@ -14,42 +14,74 @@
 
 <body>
     <main id="main-doc">
-        <section class="main-section" id="Hello_World"></section>
-        <header>1. Hello World</header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3 border-right">
+                    <!-- navbar start -->
+                    <nav id="navbar" class="navbar navbar-light bg-light">
+                        <a class="navbar-brand" href="#">React Docs</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link" href="#item-1">Item 1</a>
+                            <nav class="nav nav-pills flex-column">
+                                <a class="nav-link ml-3 my-1" href="#item-1-1">Item 1-1</a>
+                                <a class="nav-link ml-3 my-1" href="#item-1-2">Item 1-2</a>
+                            </nav>
+                            <a class="nav-link" href="#item-2">Item 2</a>
+                            <a class="nav-link" href="#item-3">Item 3</a>
+                            <nav class="nav nav-pills flex-column">
+                                <a class="nav-link ml-3 my-1" href="#item-3-1">Item 3-1</a>
+                                <a class="nav-link ml-3 my-1" href="#item-3-2">Item 3-2</a>
+                            </nav>
+                        </nav>
+                    </nav>
+                    <!-- navbar ends -->
+                </div>
 
-        <section class="main-section" id="Introducing_JSX"></section>
-        <header>2. Introducing JSX</header>
+                <div class="col-9 border-left">
+                    <section class="main-section" id="Hello_World">
+                        <header>
+                            <h1>Hello World</h1>
+                        </header>
+                    </section>
+                    <p>It displays a heading saying “Hello, world!” on the page.</p>
+                    <p>This is the first chapter in a step-by-step guide about main React concepts. You can find a list
+                        of
+                        all
+                        its
+                        chapters in the navigation sidebar. If you’re reading this from a mobile device, you can access
+                        the
+                        navigation by pressing the button in the bottom right corner of your screen.</p>
+                    <p>Every chapter in this guide builds on the knowledge introduced in earlier chapters. You can learn
+                        most of
+                        React by reading the “Main Concepts” guide chapters in the order they appear in the sidebar. For
+                        example,
+                        “Introducing JSX” is the next chapter after this one.</p>
+                    <section class="main-section" id="Introducing_JSX">
+                        <header>Introducing JSX</header>
+                    </section>
 
-        <section class="main-section" id="Rendering_Elements"></section>
-        <header>3. Rendering Elements</header>
+                    <section class="main-section" id="Rendering_Elements">
+                        <header>Rendering Elements</header>
+                    </section>
 
-        <section class="main-section" id="Components_and_Props"></section>
-        <header>4. Components and Props</header>
+                    <section class="main-section" id="Components_and_Props">
+                        <header>Components and Props</header>
+                    </section>
 
-        <section class="main-section" id="State and Lifecycle"></section>
-        <header>5. State and Lifecycle</header>
+                    <section class="main-section" id="State and Lifecycle">
+                        <header>State and Lifecycle</header>
+                    </section>
 
-        <section class="main-section" id="Handling_Events"></section>
-        <header>6. Handling Events</header>
+                    <section class="main-section" id="Handling_Events">
+                        <header>Handling Events</header>
+                    </section>
 
-        <section class="main-section" id="7. Conditional_Rendering"></section>
-        <header>7. Conditional Rendering</header>
-
-        <section class="main-section" id=""></section>
-        <header>8. Lists and Keys</header>
-
-        <section class="main-section" id="Forms"></section>
-        <header>9. Forms</header>
-
-        <section class="main-section" id="Lifting_State_Up"></section>
-        <header>10. Lifting State Up</header>
-
-        <section class="main-section" id="Composition_vs_Inheritance"></section>
-        <header>11. Composition vs Inheritance</header>
-
-        <section class="main-section" id="Thinking_In-React"></section>
-        <header>12. Thinking In React</header>
-
+                    <section class="main-section" id="7. Conditional_Rendering">
+                        <header>Conditional Rendering</header>
+                    </section>
+                </div>
+            </div>
+        </div>
     </main>
 
     <!-- Optional JavaScript -->

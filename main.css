@@ -1,7 +1,3 @@
-.clsscroll {
-    height: 150px;
-    width: 150px;
-    background: yellow;
-    overflow-x: hidden;
-    overflow-y: auto;
+nav div ul li {
+    border-bottom: 1px;
 }
