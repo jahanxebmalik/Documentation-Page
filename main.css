@@ -1,12 +1,23 @@
 .navbar {
     display: block;
+    padding: 0.5rem 0rem;
 }
 
-/* .nav-link {
-    border-bottom: 1px solid black;
-} */
-
 .navbar a {
+    border-bottom: 1px solid black;
+}
+
+#title {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.nav-link {
     color: gray;
-    border-bottom: 1px solid black
+}
+
+@media (min-width:768px) {
+    #sticky-sidebar {
+        position: fixed;
+    }
 }
