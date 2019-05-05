@@ -15,9 +15,3 @@
 .nav-link {
     color: gray;
 }
-
-@media (min-width:768px) {
-    #sticky-sidebar {
-        position: fixed;
-    }
-}
