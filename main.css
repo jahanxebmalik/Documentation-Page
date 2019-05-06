@@ -12,6 +12,14 @@ header {
     font-weight: bold;
 }
 
+.col-md-3 {
+    border-right: 1px solid black;
+}
+
+.border-success {
+    color: black;
+}
+
 code {
     background-color: #17191f;
     display: block;
